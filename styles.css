@@ -1,0 +1,43 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+/* Header */
+header {
+	max-width: 1440px;
+	margin: auto;
+}
+.navigation {
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#logo {
+	padding: 0;
+}
+#logo:nth-child(1){
+	flex: 3;
+}
+
+.navigation a {
+	color: black;
+	text-decoration: none;
+}
+
+
+/* Section Recherche*/
+#filtres {
+	display: flex;
+}
+
+
+/*Section Résultats */
+
+/*Section Hébergements à Résultat */
+#hebergements-resultat, aside,footer{
+	background-color: #F2F2F2;
+}
+
+
